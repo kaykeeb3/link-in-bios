@@ -6,7 +6,7 @@ body, html {
 }
 
 body {
-  background: linear-gradient(90deg, #000, #000d 35%, #0000), url("./images/hero-image.jpg") no-repeat center fixed;
+  background: url("./images/image.jpg") no-repeat center fixed;
   background-size: cover;
 }
 
@@ -28,7 +28,6 @@ header > img {
    width: 7em;
    height: 7em;
    border-radius: 100%;
-   padding: 0.10rem;
    border: 1px solid #FFF;
    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 }
