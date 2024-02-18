@@ -18,7 +18,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 140px;
+  margin-top: 100px;
 }
 
 img {
@@ -26,8 +26,8 @@ img {
   height: 220px;
   border-radius: 100%;
   margin: 50px 0 50px 0;
-	border: 5px solid #DDD;
-	border-radius: 50%;
+  border: 5px solid #DDD; 
+  border-radius: 50%;
 }
 
 .description {
