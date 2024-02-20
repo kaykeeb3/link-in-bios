@@ -18,7 +18,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 img {
@@ -39,7 +39,7 @@ img {
 
 p {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: #444;
   margin-top: 30px;
@@ -47,7 +47,7 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  max-width: 450px;
+  max-width: 400px;
 }
 
  a {
@@ -91,11 +91,3 @@ i:hover {
   transition: 1s all;
 }
 
-footer,
-h6 {
-  width: 100%;
-  text-align: center;
-  font-size: 13px;
-  font-weight: 400;
-  margin-top: 60px;
-}
