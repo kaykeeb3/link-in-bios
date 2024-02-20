@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: monospace;
-  font-size: 12px;
+  font-size: 10px;
   text-align: justify;
   letter-spacing: 1px;
 }
@@ -80,7 +80,7 @@ h4 {
 }
 
 i {
-  font-size: 35px;
+  font-size: 25px;
 }
 
 i:hover {
