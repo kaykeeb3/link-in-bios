@@ -18,7 +18,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 img {
@@ -26,7 +26,7 @@ img {
   height: 220px;
   border-radius: 100%;
   margin: 50px 0 50px 0;
-  border: 5px solid #DDD; 
+  border: 5px solid #ddd;
   border-radius: 50%;
 }
 
@@ -50,7 +50,7 @@ p {
   max-width: 400px;
 }
 
- a {
+a {
   font-size: 18px;
   font-weight: 400;
   color: #444;
@@ -79,8 +79,15 @@ h4 {
   margin-top: 25px;
 }
 
+.phrase {
+  flex: 1;
+  max-width: 80%;
+  margin-bottom: 25px;
+}
+
 i {
   font-size: 25px;
+  padding-bottom: 30px;
 }
 
 i:hover {
@@ -90,4 +97,3 @@ i:hover {
   padding: 8px;
   transition: 1s all;
 }
-
