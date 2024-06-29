@@ -1,11 +1,10 @@
- * {
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: monospace;
+  font-family: "Ubuntu", sans-serif;
   font-size: 10px;
   text-align: justify;
-  letter-spacing: 1px;
 }
 
 body {
@@ -18,7 +17,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 15px;
 }
 
 img {
@@ -39,15 +38,19 @@ img {
 
 p {
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
-  color: #555;
+  color: #333;
   margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   max-width: 400px;
+}
+
+p > span {
+  font-style: italic;
 }
 
 a {
@@ -76,24 +79,24 @@ h4 {
   align-items: center;
   justify-content: center;
   gap: 30px;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .phrase {
   flex: 1;
   max-width: 80%;
+  font-size: 14px;
+  color: #777;
   margin-bottom: 25px;
+  font-style: italic;
 }
 
 i {
-  font-size: 25px;
+  font-size: 20px;
   padding-bottom: 30px;
 }
 
-i:hover {
-  border-radius: 100%;
-  color: #f6f6f6;
-  background: #222;
-  padding: 8px;
+a:hover {
+  opacity: 80%;
   transition: 1s all;
 }
