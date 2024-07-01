@@ -44,7 +44,7 @@ p {
   text-align: center;
   font-size: 14px;
   font-weight: 400;
-  color: #F7F7F7;
+  color: #f7f7f7;
   margin-top: 30px;
   display: flex;
   align-items: center;
@@ -60,7 +60,7 @@ p > span {
 a {
   font-size: 18px;
   font-weight: 400;
-  color: #F7F7F7;
+  color: #f7f7f7;
   text-decoration: none;
 }
 
@@ -68,16 +68,15 @@ span {
   text-decoration: underline;
   font-size: 18px;
   font-weight: 400;
-  color: #F7F7F7;
+  color: #f7f7f7;
 }
 
 h4 {
   margin-top: -30px;
   font-weight: 800;
   font-size: 28px;
-  background: linear-gradient(to right, #22c55e,
-  #3b82f6);
-    -webkit-background-clip: text;
+  background: linear-gradient(to right, #22c55e, #3b82f6);
+  -webkit-background-clip: text;
   color: transparent;
 }
 
@@ -106,8 +105,48 @@ i {
 
 a:hover {
   background-color: transparent;
-  border: 1px solid #EEE;
+  border: 1px solid #eee;
   border-radius: 50%;
   padding: 3px;
-  transition: .2s all;
+  transition: 0.2s all;
+}
+
+@media (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1280px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1536px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
 }
