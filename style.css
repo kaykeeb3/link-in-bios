@@ -24,13 +24,14 @@ img {
   width: 220px;
   height: 220px;
   border-radius: 100%;
-  margin: 50px 0 50px 0;
+  margin: 50px 0;
   border: 5px solid #27272a;
-  border-radius: 50%;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
 img:hover {
-  opacity: 90%;
+  opacity: 0.9;
+  transform: scale(1.1);
 }
 
 .description {
@@ -46,11 +47,8 @@ p {
   font-weight: 400;
   color: #f7f7f7;
   margin-top: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   max-width: 400px;
+  transition: opacity 0.3s ease-in-out;
 }
 
 p > span {
@@ -62,6 +60,15 @@ a {
   font-weight: 400;
   color: #f7f7f7;
   text-decoration: none;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}
+
+a:hover {
+  background-color: transparent;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  padding: 3px;
 }
 
 span {
@@ -69,6 +76,7 @@ span {
   font-size: 18px;
   font-weight: 400;
   color: #f7f7f7;
+  transition: color 0.3s ease-in-out;
 }
 
 h4 {
@@ -99,49 +107,15 @@ h4 {
 
 i {
   font-size: 20px;
-  opacity: 75%;
+  opacity: 0.75;
   padding-bottom: 30px;
+  transition: opacity 0.3s ease-in-out;
 }
 
-a:hover {
-  background-color: transparent;
-  border: 1px solid #eee;
-  border-radius: 50%;
-  padding: 3px;
-  transition: 0.2s all;
-}
-
-@media (min-width: 768px) {
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-}
-
-@media (min-width: 1024px) {
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-}
-
-@media (min-width: 1280px) {
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-}
-
-@media (min-width: 1536px) {
+@media (min-width: 768px),
+  (min-width: 1024px),
+  (min-width: 1280px),
+  (min-width: 1536px) {
   main {
     display: flex;
     flex-direction: column;
